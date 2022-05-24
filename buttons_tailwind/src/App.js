@@ -25,10 +25,10 @@ function App() {
 					<BaseButtonBs variant='base' IconStart='bi-heart-fill' data-bs-toggle='tooltip' data-bs-placement='top' title='Tooltip on top'>
 						default
 					</BaseButtonBs>
-					<BaseButtonBs variant='primary' IconEnd='bi-arrow-clockwise'>
+					<BaseButtonBs variant='primary' IconEnd='bi-arrow-clockwise' disabled>
 						default
 					</BaseButtonBs>
-					<BaseButtonBs variant='text' IconEnd='bi-trash' disabled>
+					<BaseButtonBs variant='text' IconEnd='bi-trash'>
 						text
 					</BaseButtonBs>
 				</div>
