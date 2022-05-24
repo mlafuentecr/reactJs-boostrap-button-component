@@ -1,0 +1,106 @@
+@import 'bootstrap';
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css');
+$aquaTint07: #f4fbfc;
+$aquaTint15: #e7f5f8;
+$aquaTint25: #d7eff3;
+$aquaTint35: #c8e9ee;
+$aquaTint50: #b0dfe6;
+$aquaTint80: #81ccd8;
+$bgMidWhite: #f7f7f7;
+$blueGrayTint07: #f8fbfc;
+$blueGrayTint15: #f0f5f9;
+$blueGrayTint25: #e6eff5;
+$blueGrayTint35: #dce9f1;
+$blueGrayTint50: #ccdfeb;
+$blueGrayTint80: #aecce0;
+$blueTint07: #f6f9fd;
+$blueTint15: #ebf3fa;
+$blueTint25: #deeaf7;
+$blueTint35: #d0e2f3;
+$blueTint50: #bcd5ee;
+$blueTint80: #95bde5;
+$brandAqua: #61bfce;
+$brandBlue: #7aacde;
+$brandBlueGray: #9abfd8;
+$brandColorB: #7aacde;
+$brandColorC: #9abfd8;
+$brandColorD: #61bfce;
+$brandColorE: #664fb7;
+$brandColorTint03: #efecef;
+$brandColorTint07: #e0dee6;
+$brandColorTint15: #dddddd;
+$brandColorTint25: #bbbbbb;
+$brandColorTint50: #8f8f8f;
+$brandDarkBlue: #1e3c57;
+$brandPurple: #664fb7;
+$brandViolet: #3b2552;
+$darkBlueTint03: #ecedef;
+$darkBlueTint07: #e4e8ec;
+$darkBlueTint15: #d8dee3;
+$darkBlueTint25: #afb9c5;
+$darkBlueTint50: #798fa4;
+$grayTint03: #ededed;
+$grayTint07: #e6e6e6;
+$grayTint15: #dddddd;
+$grayTint25: #bbbbbb;
+$grayTint50: #8f8f8f;
+$overviewBlue: #009dff;
+$purpleTint07: #f4f3fa;
+$purpleTint15: #e8e5f4;
+$purpleTint25: #d9d3ed;
+$purpleTint35: #c9c1e6;
+$purpleTint50: #b2a7db;
+$purpleTint80: #8572c5;
+$violetTint03: #efecef;
+$violetTint07: #e0dee6;
+$violetTint15: #dddae0;
+$violetTint25: #bbb5c0;
+$violetTint50: #8f859a;
+$violetTint75: #6c5b7d;
+$test: '';
+
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	color: $body-color !important;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+.bg-brand {
+	background-color: $brandViolet !important;
+}
+.text-brand {
+	color: $brandViolet !important;
+}
+.border-brand {
+	border-color: $brandViolet;
+}
+.hover {
+	&-6 {
+		&:hover {
+			opacity: 0.6 !important;
+		}
+	}
+	&-7 {
+		&:hover {
+			opacity: 0.7 !important;
+		}
+	}
+	&-8 {
+		&:hover {
+			opacity: 0.8 !important;
+		}
+	}
+	&-9 {
+		&:hover {
+			opacity: 0.9 !important;
+		}
+	}
+}
